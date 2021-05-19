@@ -15,6 +15,10 @@ body{
   padding-top: 70px;
 }
 
+main{
+  overflow: hidden;
+}
+
 /* header */
 .header{
   display: flex;
@@ -194,8 +198,10 @@ body{
 /* first view */
 .firstview {
   height: 80vh;
+  width: 100%;
   background: url(../images/mv.png) no-repeat center;
   background-size: cover;
+  overflow: hidden;
 }
 
 .firstview__content{
@@ -237,7 +243,7 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 1050px;
+  width: 1000px;
   margin: 0 auto;
 }
 
@@ -264,7 +270,7 @@ body{
 }
 
 .service__contents{
-  width: 1070px;
+  width: 1000px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -354,7 +360,7 @@ body{
 }
 
 .news__contents{
-  width: 1070px;
+  width: 1000px;
   margin: 0 auto;
   padding-top: 90px;
 }
@@ -424,7 +430,7 @@ body{
 }
 
 .blog__contents{
-  width: 1070px;
+  width: 1000px;
   margin: 80px auto;
 }
 
@@ -612,7 +618,7 @@ body{
   .footer__nav-list{
     flex-direction: column;
     align-items: center;
-
+    padding: 0;
   }
 
   .footer__nav-list li{
